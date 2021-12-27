@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contener">
+        <div class="navbar">
+            <img src="media/Music_logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SEPCIFICATION</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <h1>I <br>LOVE<br> MUSIC</h1>
+            </div>
+            <div class="right-col">
+                <p>Click Here To Listen</p>
+                <img src="Media/play.png" id="icon" >
+            </div>
+        </div>
+    </div>
+    <audio id="MySong">
+        <source src="Media/Chitta (Full Video)  Shiddat  Sunny Kaushal, Radhika Madan, Mohit R ,D 128 kbps.mp3" type="audio/mp3">
+    </audio>
+
+    <!--Internal JS-->
+
+    <script>
+        var MySong = document.getElementById("MySong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+
+            if(MySong.paused)
+            {
+                   MySong.play();
+                   icon.src = "Media/pause.png";
+            }
+            else
+            {
+                   MySong.pause();
+                   icon.src = "Media/play.png";
+            }
+        }
+    </script>
+</body>
+</html>
