@@ -1,0 +1,75 @@
+#banner{
+    background-color: rosybrown;
+}
+.main-banner-contaner{
+    display: flex;
+}
+
+#navbar nav ul{
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    list-style: none;
+    padding: 15px 40px;
+    padding-left: 850px;
+}
+
+.main-banner-contaner{
+    padding: 100px 20px;
+    font-size: 20px;
+}
+
+.main-banner-contaner h1{
+    font-size: 60px;
+
+}
+#navbar{
+    display: flex;
+    background-color: black;
+}
+
+#navbar nav ul li a{
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    width: 40%;
+}
+
+#navbar h1{
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+    padding-top: 10px;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+}
+.box-type{
+    background-color: aqua;
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+}
+
+.about-heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+.batches-det{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bat-details{
+    background-color: burlywood;
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+}
