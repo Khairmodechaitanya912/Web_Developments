@@ -343,7 +343,7 @@ section{
     width: 7rem;
     border-radius: 50%;
     /* object-fit: cover; */
-    object-fit:scale-down;
+    object-fit: scale-down;
 }
 
 .reivew .box .user h3{
